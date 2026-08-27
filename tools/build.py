@@ -22,7 +22,9 @@ import webbrowser
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-VERSION = "2.0"
+import icons
+
+VERSION = "2.1"
 BRAND_DIR = Path(__file__).resolve().parents[1]
 PAGES = {
     "home": BRAND_DIR / "index.html",
@@ -901,69 +903,10 @@ def _sec_typography() -> str:
 
 
 def _sec_iconography() -> str:
-    return """
-    <section id="iconography">
-      <h2>6. Iconography</h2>
-
-      <p>CatWing uses <strong>Unicode characters + CSS indicators</strong> rather than an icon library.
-      This keeps the bundle minimal and ensures icons render without external dependencies.</p>
-
-      <h3>Zone Dots</h3>
-      <p class="note">The canonical micro-icon. 10px circles with semantic zone colors.</p>
-      <div class="zone-dots-demo">
-        <div class="zone-dot-sample"><span class="dot" style="background:#4CAF50"></span> A (Green)</div>
-        <div class="zone-dot-sample"><span class="dot" style="background:#FFC107"></span> B (Yellow)</div>
-        <div class="zone-dot-sample"><span class="dot" style="background:#FF9800"></span> C (Orange)</div>
-        <div class="zone-dot-sample"><span class="dot" style="background:#D32F2F"></span> D (Red)</div>
-      </div>
-
-      <h3>Status Indicators</h3>
-      <div class="icon-grid">
-        <div class="icon-card">
-          <div class="icon-demo" style="color:#4CAF50">&#10003;</div>
-          <div class="icon-label">Confirmed</div>
-        </div>
-        <div class="icon-card">
-          <div class="icon-demo" style="color:#FF9800">&#9888;</div>
-          <div class="icon-label">Drift / Re-review</div>
-        </div>
-        <div class="icon-card">
-          <div class="icon-demo" style="color:#aaa">&#128274;</div>
-          <div class="icon-label">Discontinued (locked)</div>
-        </div>
-        <div class="icon-card">
-          <div class="icon-demo" style="color:#94a3b8">&#9654;</div>
-          <div class="icon-label">Chevron (expandable)</div>
-        </div>
-      </div>
-
-      <h3>Chevron Rotation</h3>
-      <p>Chevrons rotate 90&deg; on expand with <code>transition: transform 0.15s</code>.</p>
-
-      <h3>Product Labels</h3>
-      <p class="note">Textual icons with color coding. Responsive: full text on desktop, abbreviation on phone.</p>
-      <div class="label-demos">
-        <span class="cw-label launch">LAUNCH</span>
-        <span class="cw-label disc">DISC.</span>
-        <span class="cw-label old">OLD</span>
-        <span class="cw-label gold">GOLD</span>
-      </div>
-      <table class="spec-table">
-        <thead><tr><th>Label</th><th>Meaning</th><th>Background</th><th>Text</th></tr></thead>
-        <tbody>
-          <tr><td>LAUNCH</td><td>Recently launched product</td><td>#E8F5E9</td><td>#2E7D32</td></tr>
-          <tr><td>DISC.</td><td>Discontinued by supplier</td><td>#ECEFF1</td><td>#616161</td></tr>
-          <tr><td>OLD</td><td>Product is 5+ years old</td><td>#FFEBEE</td><td>#C62828</td></tr>
-          <tr><td>GOLD</td><td>Gold material product</td><td>#FFF8E1</td><td>#BF360C</td></tr>
-        </tbody>
-      </table>
-
-      <h3>Future Direction</h3>
-      <div class="callout">
-        If an icon library is ever adopted, prefer <strong>line icons, 1.5px stroke, rounded caps</strong>
-        (Lucide or Phosphor style). No filled icons, no emoji-style.
-      </div>
-    </section>"""
+    """Icon gallery, generated from the brand icon registry (see tools/icons.py)."""
+    registry = icons.build_all()
+    bodies = {role: icons.glyph_body(meta) for role, meta in registry["roles"].items()}
+    return icons.gallery_section(registry, bodies)
 
 
 def _sec_voice() -> str:

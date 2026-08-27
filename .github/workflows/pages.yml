@@ -24,6 +24,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install icon build dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libcairo2
+          pip install -r requirements.txt
+
       - name: Build wiki
         run: python tools/build.py --no-open
 
@@ -32,6 +38,7 @@ jobs:
           mkdir -p _site
           cp index.html brand.html design.html resources.html _site/
           cp tokens.json tokens.css _site/
+          cp -r icons/dist _site/icons
 
       - uses: actions/upload-pages-artifact@v3
         with:

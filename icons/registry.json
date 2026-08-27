@@ -1,0 +1,2164 @@
+{
+  "version": "2.1",
+  "lucide_version": "0.468.0",
+  "roles": {
+    "activityTrail": {
+      "glyph": "footprints",
+      "source": "lucide/footprints.svg",
+      "category": "platform",
+      "keywords": [
+        "activity",
+        "trail",
+        "footprints"
+      ],
+      "never_means": "a versioned audit record of field changes (that is `auditHistory`)"
+    },
+    "add": {
+      "glyph": "plus",
+      "source": "lucide/plus.svg",
+      "category": "action",
+      "keywords": [
+        "add",
+        "plus"
+      ],
+      "never_means": "adding a user (that is `addUser`) or creating a folder (that is `newFolder`)"
+    },
+    "addToList": {
+      "glyph": "list-plus",
+      "source": "lucide/list-plus.svg",
+      "category": "action",
+      "keywords": [
+        "add",
+        "to",
+        "list",
+        "plus"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "addUser": {
+      "glyph": "user-plus",
+      "source": "lucide/user-plus.svg",
+      "category": "action",
+      "keywords": [
+        "add",
+        "user",
+        "plus"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "agent": {
+      "glyph": "bot",
+      "source": "lucide/bot.svg",
+      "category": "platform",
+      "keywords": [
+        "agent",
+        "bot"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "aiAssist": {
+      "glyph": "sparkles",
+      "source": "lucide/sparkles.svg",
+      "category": "platform",
+      "keywords": [
+        "ai",
+        "assist",
+        "sparkles"
+      ],
+      "never_means": "a pipeline execution (that is `pipelineRun`)"
+    },
+    "allConfirmed": {
+      "glyph": "check-check",
+      "source": "lucide/check-check.svg",
+      "category": "status",
+      "keywords": [
+        "all",
+        "confirmed",
+        "check"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "analytics": {
+      "glyph": "chart-column",
+      "source": "lucide/chart-column.svg",
+      "category": "domain",
+      "keywords": [
+        "analytics",
+        "chart",
+        "column"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "apiKey": {
+      "glyph": "key-round",
+      "source": "lucide/key-round.svg",
+      "category": "platform",
+      "keywords": [
+        "api",
+        "key",
+        "round"
+      ],
+      "never_means": "a locked field (that is `locked`)"
+    },
+    "application": {
+      "glyph": "app-window",
+      "source": "lucide/app-window.svg",
+      "category": "layout",
+      "keywords": [
+        "application",
+        "app",
+        "window"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "attachment": {
+      "glyph": "paperclip",
+      "source": "lucide/paperclip.svg",
+      "category": "action",
+      "keywords": [
+        "attachment",
+        "paperclip"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "auditHistory": {
+      "glyph": "history",
+      "source": "lucide/history.svg",
+      "category": "layout",
+      "keywords": [
+        "audit",
+        "history"
+      ],
+      "never_means": "a stream of user actions (that is `activityTrail`)"
+    },
+    "back": {
+      "glyph": "arrow-left",
+      "source": "lucide/arrow-left.svg",
+      "category": "navigation",
+      "keywords": [
+        "back",
+        "arrow",
+        "left"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "behavior": {
+      "glyph": "activity",
+      "source": "lucide/activity.svg",
+      "category": "domain",
+      "keywords": [
+        "behavior",
+        "activity"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "blocked": {
+      "glyph": "ban",
+      "source": "lucide/ban.svg",
+      "category": "status",
+      "keywords": [
+        "blocked",
+        "ban"
+      ],
+      "never_means": "deactivated (that is `deactivate`) or discontinued stock (that is `discontinued`)"
+    },
+    "bold": {
+      "glyph": "bold",
+      "source": "lucide/bold.svg",
+      "category": "editor",
+      "keywords": [
+        "bold"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "brand": {
+      "glyph": "tag",
+      "source": "lucide/tag.svg",
+      "category": "entity",
+      "keywords": [
+        "brand",
+        "tag"
+      ],
+      "never_means": "a free-text label (that is `labels`)"
+    },
+    "bulletList": {
+      "glyph": "list",
+      "source": "lucide/list.svg",
+      "category": "editor",
+      "keywords": [
+        "bullet",
+        "list"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "capturePhoto": {
+      "glyph": "camera",
+      "source": "lucide/camera.svg",
+      "category": "action",
+      "keywords": [
+        "capture",
+        "photo",
+        "camera"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "category": {
+      "glyph": "folder-tree",
+      "source": "lucide/folder-tree.svg",
+      "category": "entity",
+      "keywords": [
+        "category",
+        "folder",
+        "tree"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryApparel": {
+      "glyph": "shirt",
+      "source": "lucide/shirt.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "apparel",
+        "shirt"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryBags": {
+      "glyph": "shopping-bag",
+      "source": "lucide/shopping-bag.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "bags",
+        "shopping",
+        "bag"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryBeverages": {
+      "glyph": "wine",
+      "source": "lucide/wine.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "beverages",
+        "wine"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryElectronics": {
+      "glyph": "cpu",
+      "source": "lucide/cpu.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "electronics",
+        "cpu"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryEyewear": {
+      "glyph": "glasses",
+      "source": "lucide/glasses.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "eyewear",
+        "glasses"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryFood": {
+      "glyph": "apple",
+      "source": "lucide/apple.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "food",
+        "apple"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryFurniture": {
+      "glyph": "sofa",
+      "source": "lucide/sofa.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "furniture",
+        "sofa"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryJewellery": {
+      "glyph": "gem",
+      "source": "lucide/gem.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "jewellery",
+        "gem"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryStationery": {
+      "glyph": "pen-tool",
+      "source": "lucide/pen-tool.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "stationery",
+        "pen",
+        "tool"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "categoryWatches": {
+      "glyph": "watch",
+      "source": "lucide/watch.svg",
+      "category": "merchandising",
+      "keywords": [
+        "category",
+        "watches",
+        "watch"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "checklist": {
+      "glyph": "list-todo",
+      "source": "lucide/list-todo.svg",
+      "category": "layout",
+      "keywords": [
+        "checklist",
+        "list",
+        "todo"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "chevronDown": {
+      "glyph": "chevron-down",
+      "source": "lucide/chevron-down.svg",
+      "category": "navigation",
+      "keywords": [
+        "chevron",
+        "down"
+      ],
+      "never_means": "a descending sort (that is `sortDescending`) or a download (that is `download`)"
+    },
+    "chevronLeft": {
+      "glyph": "chevron-left",
+      "source": "lucide/chevron-left.svg",
+      "category": "navigation",
+      "keywords": [
+        "chevron",
+        "left"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "chevronRight": {
+      "glyph": "chevron-right",
+      "source": "lucide/chevron-right.svg",
+      "category": "navigation",
+      "keywords": [
+        "chevron",
+        "right"
+      ],
+      "never_means": "forward navigation (that is `forward`)"
+    },
+    "chevronUp": {
+      "glyph": "chevron-up",
+      "source": "lucide/chevron-up.svg",
+      "category": "navigation",
+      "keywords": [
+        "chevron",
+        "up"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "clearFilters": {
+      "glyph": "filter-x",
+      "source": "lucide/filter-x.svg",
+      "category": "action",
+      "keywords": [
+        "clear",
+        "filters",
+        "filter"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "close": {
+      "glyph": "x",
+      "source": "lucide/x.svg",
+      "category": "action",
+      "keywords": [
+        "close"
+      ],
+      "never_means": "delete (that is `delete`) or a failed operation (that is `failure`)"
+    },
+    "collapseAll": {
+      "glyph": "chevrons-up",
+      "source": "lucide/chevrons-up.svg",
+      "category": "navigation",
+      "keywords": [
+        "collapse",
+        "all",
+        "chevrons",
+        "up"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "colorPalette": {
+      "glyph": "palette",
+      "source": "lucide/palette.svg",
+      "category": "editor",
+      "keywords": [
+        "color",
+        "palette"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "columns": {
+      "glyph": "columns-3",
+      "source": "lucide/columns-3.svg",
+      "category": "layout",
+      "keywords": [
+        "columns"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "comment": {
+      "glyph": "message-square",
+      "source": "lucide/message-square.svg",
+      "category": "platform",
+      "keywords": [
+        "comment",
+        "message",
+        "square"
+      ],
+      "never_means": "a support request (that is `support`)"
+    },
+    "configuration": {
+      "glyph": "settings-2",
+      "source": "lucide/settings-2.svg",
+      "category": "layout",
+      "keywords": [
+        "configuration",
+        "settings"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "confirmationOrder": {
+      "glyph": "file-check-2",
+      "source": "lucide/file-check-2.svg",
+      "category": "entity",
+      "keywords": [
+        "confirmation",
+        "order",
+        "file",
+        "check"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "constraints": {
+      "glyph": "sliders-horizontal",
+      "source": "lucide/sliders-horizontal.svg",
+      "category": "layout",
+      "keywords": [
+        "constraints",
+        "sliders",
+        "horizontal"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "copy": {
+      "glyph": "copy",
+      "source": "lucide/copy.svg",
+      "category": "action",
+      "keywords": [
+        "copy"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "coverageMap": {
+      "glyph": "map",
+      "source": "lucide/map.svg",
+      "category": "domain",
+      "keywords": [
+        "coverage",
+        "map"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "customer": {
+      "glyph": "contact-round",
+      "source": "lucide/contact-round.svg",
+      "category": "entity",
+      "keywords": [
+        "customer",
+        "contact",
+        "round"
+      ],
+      "never_means": "a platform user account (that is `user`) or a supplier (that is `supplier`)"
+    },
+    "darkTheme": {
+      "glyph": "moon",
+      "source": "lucide/moon.svg",
+      "category": "platform",
+      "keywords": [
+        "dark",
+        "theme",
+        "moon"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "database": {
+      "glyph": "database",
+      "source": "lucide/database.svg",
+      "category": "domain",
+      "keywords": [
+        "database"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "date": {
+      "glyph": "calendar-days",
+      "source": "lucide/calendar-days.svg",
+      "category": "layout",
+      "keywords": [
+        "date",
+        "calendar",
+        "days"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "deactivate": {
+      "glyph": "power-off",
+      "source": "lucide/power-off.svg",
+      "category": "action",
+      "keywords": [
+        "deactivate",
+        "power",
+        "off"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "delete": {
+      "glyph": "trash-2",
+      "source": "lucide/trash-2.svg",
+      "category": "action",
+      "keywords": [
+        "delete",
+        "trash"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "discontinued": {
+      "glyph": "package-x",
+      "source": "lucide/package-x.svg",
+      "category": "domain",
+      "keywords": [
+        "discontinued",
+        "package"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "document": {
+      "glyph": "file-text",
+      "source": "lucide/file-text.svg",
+      "category": "entity",
+      "keywords": [
+        "document",
+        "file",
+        "text"
+      ],
+      "never_means": "a purchase order (that is `purchaseOrder`) or a wiki page (that is `wiki`)"
+    },
+    "download": {
+      "glyph": "download",
+      "source": "lucide/download.svg",
+      "category": "action",
+      "keywords": [
+        "download"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "dragHandle": {
+      "glyph": "grip-vertical",
+      "source": "lucide/grip-vertical.svg",
+      "category": "layout",
+      "keywords": [
+        "drag",
+        "handle",
+        "grip",
+        "vertical"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "duration": {
+      "glyph": "timer",
+      "source": "lucide/timer.svg",
+      "category": "status",
+      "keywords": [
+        "duration",
+        "timer"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "edit": {
+      "glyph": "pencil",
+      "source": "lucide/pencil.svg",
+      "category": "action",
+      "keywords": [
+        "edit",
+        "pencil"
+      ],
+      "never_means": "editing a user record specifically (that is `userEdited`)"
+    },
+    "error": {
+      "glyph": "circle-alert",
+      "source": "lucide/circle-alert.svg",
+      "category": "status",
+      "keywords": [
+        "error",
+        "circle",
+        "alert"
+      ],
+      "never_means": "a non-blocking caution (that is `warning`) or general help text (that is `info`)"
+    },
+    "eventInbox": {
+      "glyph": "inbox",
+      "source": "lucide/inbox.svg",
+      "category": "entity",
+      "keywords": [
+        "event",
+        "inbox"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "expandAll": {
+      "glyph": "chevrons-down",
+      "source": "lucide/chevrons-down.svg",
+      "category": "navigation",
+      "keywords": [
+        "expand",
+        "all",
+        "chevrons",
+        "down"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "expandRow": {
+      "glyph": "expand",
+      "source": "lucide/expand.svg",
+      "category": "layout",
+      "keywords": [
+        "expand",
+        "row"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "exportSpreadsheet": {
+      "glyph": "file-spreadsheet",
+      "source": "lucide/file-spreadsheet.svg",
+      "category": "entity",
+      "keywords": [
+        "export",
+        "spreadsheet",
+        "file"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "externalLink": {
+      "glyph": "external-link",
+      "source": "lucide/external-link.svg",
+      "category": "action",
+      "keywords": [
+        "external",
+        "link"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "failure": {
+      "glyph": "circle-x",
+      "source": "lucide/circle-x.svg",
+      "category": "status",
+      "keywords": [
+        "failure",
+        "circle"
+      ],
+      "never_means": "a dismiss control (that is `close`) or a blocked entity (that is `blocked`)"
+    },
+    "favorite": {
+      "glyph": "star",
+      "source": "lucide/star.svg",
+      "category": "platform",
+      "keywords": [
+        "favorite",
+        "star"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "filter": {
+      "glyph": "filter",
+      "source": "lucide/filter.svg",
+      "category": "action",
+      "keywords": [
+        "filter"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "firstPage": {
+      "glyph": "chevrons-left",
+      "source": "lucide/chevrons-left.svg",
+      "category": "navigation",
+      "keywords": [
+        "first",
+        "page",
+        "chevrons",
+        "left"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "flowsTo": {
+      "glyph": "move-right",
+      "source": "lucide/move-right.svg",
+      "category": "navigation",
+      "keywords": [
+        "flows",
+        "to",
+        "move",
+        "right"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "folder": {
+      "glyph": "folder-closed",
+      "source": "lucide/folder-closed.svg",
+      "category": "entity",
+      "keywords": [
+        "folder",
+        "closed"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "folderOpen": {
+      "glyph": "folder-open",
+      "source": "lucide/folder-open.svg",
+      "category": "entity",
+      "keywords": [
+        "folder",
+        "open"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "forecastChart": {
+      "glyph": "chart-line",
+      "source": "lucide/chart-line.svg",
+      "category": "domain",
+      "keywords": [
+        "forecast",
+        "chart",
+        "line"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "forward": {
+      "glyph": "arrow-right",
+      "source": "lucide/arrow-right.svg",
+      "category": "navigation",
+      "keywords": [
+        "forward",
+        "arrow",
+        "right"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "generateRecommendations": {
+      "glyph": "package-plus",
+      "source": "lucide/package-plus.svg",
+      "category": "action",
+      "keywords": [
+        "generate",
+        "recommendations",
+        "package",
+        "plus"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "gridView": {
+      "glyph": "layout-grid",
+      "source": "lucide/layout-grid.svg",
+      "category": "layout",
+      "keywords": [
+        "grid",
+        "view",
+        "layout"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "heading2": {
+      "glyph": "heading-2",
+      "source": "lucide/heading-2.svg",
+      "category": "editor",
+      "keywords": [
+        "heading2",
+        "heading"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "heading3": {
+      "glyph": "heading-3",
+      "source": "lucide/heading-3.svg",
+      "category": "editor",
+      "keywords": [
+        "heading3",
+        "heading"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "healthDegraded": {
+      "glyph": "shield-alert",
+      "source": "lucide/shield-alert.svg",
+      "category": "status",
+      "keywords": [
+        "health",
+        "degraded",
+        "shield",
+        "alert"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "healthHealthy": {
+      "glyph": "shield-check",
+      "source": "lucide/shield-check.svg",
+      "category": "status",
+      "keywords": [
+        "health",
+        "healthy",
+        "shield",
+        "check"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "healthUnknown": {
+      "glyph": "shield-question",
+      "source": "lucide/shield-question.svg",
+      "category": "status",
+      "keywords": [
+        "health",
+        "unknown",
+        "shield",
+        "question"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "hide": {
+      "glyph": "eye-off",
+      "source": "lucide/eye-off.svg",
+      "category": "action",
+      "keywords": [
+        "hide",
+        "eye",
+        "off"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "hyperlink": {
+      "glyph": "link-2",
+      "source": "lucide/link-2.svg",
+      "category": "action",
+      "keywords": [
+        "hyperlink",
+        "link"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "info": {
+      "glyph": "info",
+      "source": "lucide/info.svg",
+      "category": "status",
+      "keywords": [
+        "info"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "inlineCode": {
+      "glyph": "code",
+      "source": "lucide/code.svg",
+      "category": "editor",
+      "keywords": [
+        "inline",
+        "code"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "insertImage": {
+      "glyph": "image-plus",
+      "source": "lucide/image-plus.svg",
+      "category": "action",
+      "keywords": [
+        "insert",
+        "image",
+        "plus"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "insertTable": {
+      "glyph": "table",
+      "source": "lucide/table.svg",
+      "category": "editor",
+      "keywords": [
+        "insert",
+        "table"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "inventory": {
+      "glyph": "boxes",
+      "source": "lucide/boxes.svg",
+      "category": "domain",
+      "keywords": [
+        "inventory",
+        "boxes"
+      ],
+      "never_means": "a product entity (that is `product`) or a warehouse site (that is `warehouse`)"
+    },
+    "italic": {
+      "glyph": "italic",
+      "source": "lucide/italic.svg",
+      "category": "editor",
+      "keywords": [
+        "italic"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "labels": {
+      "glyph": "tags",
+      "source": "lucide/tags.svg",
+      "category": "entity",
+      "keywords": [
+        "labels",
+        "tags"
+      ],
+      "never_means": "a brand entity (that is `brand`)"
+    },
+    "lastPage": {
+      "glyph": "chevrons-right",
+      "source": "lucide/chevrons-right.svg",
+      "category": "navigation",
+      "keywords": [
+        "last",
+        "page",
+        "chevrons",
+        "right"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "lightTheme": {
+      "glyph": "sun",
+      "source": "lucide/sun.svg",
+      "category": "platform",
+      "keywords": [
+        "light",
+        "theme",
+        "sun"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "loading": {
+      "glyph": "loader-circle",
+      "source": "lucide/loader-circle.svg",
+      "category": "status",
+      "keywords": [
+        "loading",
+        "loader",
+        "circle"
+      ],
+      "never_means": "a retry control (that is `retry`)"
+    },
+    "location": {
+      "glyph": "map-pin",
+      "source": "lucide/map-pin.svg",
+      "category": "entity",
+      "keywords": [
+        "location",
+        "map",
+        "pin"
+      ],
+      "never_means": "a specific site kind — use `storeLocation`, `warehouse`, or `region`"
+    },
+    "locked": {
+      "glyph": "lock",
+      "source": "lucide/lock.svg",
+      "category": "platform",
+      "keywords": [
+        "locked",
+        "lock"
+      ],
+      "never_means": "an API credential (that is `apiKey`)"
+    },
+    "maximize": {
+      "glyph": "maximize-2",
+      "source": "lucide/maximize-2.svg",
+      "category": "layout",
+      "keywords": [
+        "maximize"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "menu": {
+      "glyph": "menu",
+      "source": "lucide/menu.svg",
+      "category": "layout",
+      "keywords": [
+        "menu"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "minimize": {
+      "glyph": "minimize-2",
+      "source": "lucide/minimize-2.svg",
+      "category": "layout",
+      "keywords": [
+        "minimize"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "monetaryValue": {
+      "glyph": "banknote",
+      "source": "lucide/banknote.svg",
+      "category": "domain",
+      "keywords": [
+        "monetary",
+        "value",
+        "banknote"
+      ],
+      "never_means": "the price attribute of a product (that is `price`)"
+    },
+    "moreActions": {
+      "glyph": "ellipsis",
+      "source": "lucide/ellipsis.svg",
+      "category": "layout",
+      "keywords": [
+        "more",
+        "actions",
+        "ellipsis"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "moveToFolder": {
+      "glyph": "folder-input",
+      "source": "lucide/folder-input.svg",
+      "category": "entity",
+      "keywords": [
+        "move",
+        "to",
+        "folder",
+        "input"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "newFolder": {
+      "glyph": "folder-plus",
+      "source": "lucide/folder-plus.svg",
+      "category": "entity",
+      "keywords": [
+        "new",
+        "folder",
+        "plus"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "numberedList": {
+      "glyph": "list-ordered",
+      "source": "lucide/list-ordered.svg",
+      "category": "editor",
+      "keywords": [
+        "numbered",
+        "list",
+        "ordered"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "offline": {
+      "glyph": "wifi-off",
+      "source": "lucide/wifi-off.svg",
+      "category": "status",
+      "keywords": [
+        "offline",
+        "wifi",
+        "off"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "organization": {
+      "glyph": "building-2",
+      "source": "lucide/building-2.svg",
+      "category": "entity",
+      "keywords": [
+        "organization",
+        "building"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "overdue": {
+      "glyph": "clock-alert",
+      "source": "lucide/clock-alert.svg",
+      "category": "status",
+      "keywords": [
+        "overdue",
+        "clock",
+        "alert"
+      ],
+      "never_means": "a scheduled future run (that is `schedule`)"
+    },
+    "overview": {
+      "glyph": "layout-dashboard",
+      "source": "lucide/layout-dashboard.svg",
+      "category": "layout",
+      "keywords": [
+        "overview",
+        "layout",
+        "dashboard"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "panelHeader": {
+      "glyph": "panel-top",
+      "source": "lucide/panel-top.svg",
+      "category": "layout",
+      "keywords": [
+        "panel",
+        "header",
+        "top"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "partner": {
+      "glyph": "handshake",
+      "source": "lucide/handshake.svg",
+      "category": "domain",
+      "keywords": [
+        "partner",
+        "handshake"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "pause": {
+      "glyph": "pause",
+      "source": "lucide/pause.svg",
+      "category": "action",
+      "keywords": [
+        "pause"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "pending": {
+      "glyph": "clock",
+      "source": "lucide/clock.svg",
+      "category": "status",
+      "keywords": [
+        "pending",
+        "clock"
+      ],
+      "never_means": "an overdue item (that is `overdue`) or an elapsed duration (that is `duration`)"
+    },
+    "pipelineRun": {
+      "glyph": "zap",
+      "source": "lucide/zap.svg",
+      "category": "platform",
+      "keywords": [
+        "pipeline",
+        "run",
+        "zap"
+      ],
+      "never_means": "an AI suggestion (that is `aiAssist`)"
+    },
+    "poRecommendation": {
+      "glyph": "shopping-cart",
+      "source": "lucide/shopping-cart.svg",
+      "category": "entity",
+      "keywords": [
+        "po",
+        "recommendation",
+        "shopping",
+        "cart"
+      ],
+      "never_means": "a confirmed purchase order (that is `purchaseOrder`)"
+    },
+    "price": {
+      "glyph": "euro",
+      "source": "lucide/euro.svg",
+      "category": "domain",
+      "keywords": [
+        "price",
+        "euro"
+      ],
+      "never_means": "a monetary amount in any currency (that is `monetaryValue`)"
+    },
+    "product": {
+      "glyph": "package",
+      "source": "lucide/package.svg",
+      "category": "entity",
+      "keywords": [
+        "product",
+        "package"
+      ],
+      "never_means": "a stock quantity (that is `inventory`) or a SKU code (that is `sku`)"
+    },
+    "profile": {
+      "glyph": "circle-user",
+      "source": "lucide/circle-user.svg",
+      "category": "platform",
+      "keywords": [
+        "profile",
+        "circle",
+        "user"
+      ],
+      "never_means": "a user entity reference (that is `user`)"
+    },
+    "purchaseOrder": {
+      "glyph": "file-input",
+      "source": "lucide/file-input.svg",
+      "category": "entity",
+      "keywords": [
+        "purchase",
+        "order",
+        "file",
+        "input"
+      ],
+      "never_means": "a PO recommendation (that is `poRecommendation`)"
+    },
+    "radioEmpty": {
+      "glyph": "circle",
+      "source": "lucide/circle.svg",
+      "category": "navigation",
+      "keywords": [
+        "radio",
+        "empty",
+        "circle"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "radioSelected": {
+      "glyph": "circle-dot",
+      "source": "lucide/circle-dot.svg",
+      "category": "navigation",
+      "keywords": [
+        "radio",
+        "selected",
+        "circle",
+        "dot"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "rankLeader": {
+      "glyph": "trophy",
+      "source": "lucide/trophy.svg",
+      "category": "platform",
+      "keywords": [
+        "rank",
+        "leader",
+        "trophy"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "rankRunnerUp": {
+      "glyph": "medal",
+      "source": "lucide/medal.svg",
+      "category": "platform",
+      "keywords": [
+        "rank",
+        "runner",
+        "up",
+        "medal"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "redo": {
+      "glyph": "redo-2",
+      "source": "lucide/redo-2.svg",
+      "category": "action",
+      "keywords": [
+        "redo"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "refresh": {
+      "glyph": "refresh-cw",
+      "source": "lucide/refresh-cw.svg",
+      "category": "action",
+      "keywords": [
+        "refresh",
+        "cw"
+      ],
+      "never_means": "retrying a failed operation (that is `retry`)"
+    },
+    "region": {
+      "glyph": "globe",
+      "source": "lucide/globe.svg",
+      "category": "entity",
+      "keywords": [
+        "region",
+        "globe"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "relatedDocuments": {
+      "glyph": "network",
+      "source": "lucide/network.svg",
+      "category": "domain",
+      "keywords": [
+        "related",
+        "documents",
+        "network"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "release": {
+      "glyph": "rocket",
+      "source": "lucide/rocket.svg",
+      "category": "platform",
+      "keywords": [
+        "release",
+        "rocket"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "removeFolder": {
+      "glyph": "folder-x",
+      "source": "lucide/folder-x.svg",
+      "category": "entity",
+      "keywords": [
+        "remove",
+        "folder"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "reportIssue": {
+      "glyph": "message-square-plus",
+      "source": "lucide/message-square-plus.svg",
+      "category": "platform",
+      "keywords": [
+        "report",
+        "issue",
+        "message",
+        "square",
+        "plus"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "retry": {
+      "glyph": "rotate-ccw",
+      "source": "lucide/rotate-ccw.svg",
+      "category": "action",
+      "keywords": [
+        "retry",
+        "rotate",
+        "ccw"
+      ],
+      "never_means": "a plain data reload (that is `refresh`) or an undo (that is `undo`)"
+    },
+    "revision": {
+      "glyph": "git-branch",
+      "source": "lucide/git-branch.svg",
+      "category": "domain",
+      "keywords": [
+        "revision",
+        "git",
+        "branch"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "rootFolder": {
+      "glyph": "folder-root",
+      "source": "lucide/folder-root.svg",
+      "category": "entity",
+      "keywords": [
+        "root",
+        "folder"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "rows": {
+      "glyph": "rows-3",
+      "source": "lucide/rows-3.svg",
+      "category": "layout",
+      "keywords": [
+        "rows"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "run": {
+      "glyph": "play",
+      "source": "lucide/play.svg",
+      "category": "action",
+      "keywords": [
+        "run",
+        "play"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "salesOrder": {
+      "glyph": "receipt",
+      "source": "lucide/receipt.svg",
+      "category": "entity",
+      "keywords": [
+        "sales",
+        "order",
+        "receipt"
+      ],
+      "never_means": "a purchase order (that is `purchaseOrder`) or a customer order (that is `customerOrder`)"
+    },
+    "save": {
+      "glyph": "save",
+      "source": "lucide/save.svg",
+      "category": "action",
+      "keywords": [
+        "save"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "schedule": {
+      "glyph": "calendar-clock",
+      "source": "lucide/calendar-clock.svg",
+      "category": "layout",
+      "keywords": [
+        "schedule",
+        "calendar",
+        "clock"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "scope": {
+      "glyph": "layers",
+      "source": "lucide/layers.svg",
+      "category": "domain",
+      "keywords": [
+        "scope",
+        "layers"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "search": {
+      "glyph": "search",
+      "source": "lucide/search.svg",
+      "category": "action",
+      "keywords": [
+        "search"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "seasonality": {
+      "glyph": "waves",
+      "source": "lucide/waves.svg",
+      "category": "domain",
+      "keywords": [
+        "seasonality",
+        "waves"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "security": {
+      "glyph": "shield",
+      "source": "lucide/shield.svg",
+      "category": "platform",
+      "keywords": [
+        "security",
+        "shield"
+      ],
+      "never_means": "a health verdict — use `healthHealthy`/`healthDegraded`/`healthUnknown`"
+    },
+    "selected": {
+      "glyph": "check",
+      "source": "lucide/check.svg",
+      "category": "status",
+      "keywords": [
+        "selected",
+        "check"
+      ],
+      "never_means": "operation success (that is `success`)"
+    },
+    "send": {
+      "glyph": "send",
+      "source": "lucide/send.svg",
+      "category": "action",
+      "keywords": [
+        "send"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "settings": {
+      "glyph": "settings",
+      "source": "lucide/settings.svg",
+      "category": "layout",
+      "keywords": [
+        "settings"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "share": {
+      "glyph": "share-2",
+      "source": "lucide/share-2.svg",
+      "category": "action",
+      "keywords": [
+        "share"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "show": {
+      "glyph": "eye",
+      "source": "lucide/eye.svg",
+      "category": "action",
+      "keywords": [
+        "show",
+        "eye"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "signIn": {
+      "glyph": "log-in",
+      "source": "lucide/log-in.svg",
+      "category": "platform",
+      "keywords": [
+        "sign",
+        "in",
+        "log"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "signOut": {
+      "glyph": "log-out",
+      "source": "lucide/log-out.svg",
+      "category": "platform",
+      "keywords": [
+        "sign",
+        "out",
+        "log"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "sku": {
+      "glyph": "barcode",
+      "source": "lucide/barcode.svg",
+      "category": "domain",
+      "keywords": [
+        "sku",
+        "barcode"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "sortAscending": {
+      "glyph": "arrow-up",
+      "source": "lucide/arrow-up.svg",
+      "category": "navigation",
+      "keywords": [
+        "sort",
+        "ascending",
+        "arrow",
+        "up"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "sortDescending": {
+      "glyph": "arrow-down",
+      "source": "lucide/arrow-down.svg",
+      "category": "navigation",
+      "keywords": [
+        "sort",
+        "descending",
+        "arrow",
+        "down"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "sortUnset": {
+      "glyph": "arrow-up-down",
+      "source": "lucide/arrow-up-down.svg",
+      "category": "navigation",
+      "keywords": [
+        "sort",
+        "unset",
+        "arrow",
+        "up",
+        "down"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "sortable": {
+      "glyph": "chevrons-up-down",
+      "source": "lucide/chevrons-up-down.svg",
+      "category": "navigation",
+      "keywords": [
+        "sortable",
+        "chevrons",
+        "up",
+        "down"
+      ],
+      "never_means": "an applied ascending sort (that is `sortAscending`)"
+    },
+    "stockLookup": {
+      "glyph": "package-search",
+      "source": "lucide/package-search.svg",
+      "category": "domain",
+      "keywords": [
+        "stock",
+        "lookup",
+        "package",
+        "search"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "stockTarget": {
+      "glyph": "target",
+      "source": "lucide/target.svg",
+      "category": "domain",
+      "keywords": [
+        "stock",
+        "target"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "stop": {
+      "glyph": "square",
+      "source": "lucide/square.svg",
+      "category": "action",
+      "keywords": [
+        "stop",
+        "square"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "storeLocation": {
+      "glyph": "store",
+      "source": "lucide/store.svg",
+      "category": "entity",
+      "keywords": [
+        "store",
+        "location"
+      ],
+      "never_means": "a warehouse (that is `warehouse`) or a generic location pin (that is `location`)"
+    },
+    "storeOrder": {
+      "glyph": "package-check",
+      "source": "lucide/package-check.svg",
+      "category": "entity",
+      "keywords": [
+        "store",
+        "order",
+        "package",
+        "check"
+      ],
+      "never_means": "a completed delivery check (that is `success`)"
+    },
+    "submitMessage": {
+      "glyph": "send-horizontal",
+      "source": "lucide/send-horizontal.svg",
+      "category": "action",
+      "keywords": [
+        "submit",
+        "message",
+        "send",
+        "horizontal"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "subtract": {
+      "glyph": "minus",
+      "source": "lucide/minus.svg",
+      "category": "action",
+      "keywords": [
+        "subtract",
+        "minus"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "success": {
+      "glyph": "circle-check",
+      "source": "lucide/circle-check.svg",
+      "category": "status",
+      "keywords": [
+        "success",
+        "circle",
+        "check"
+      ],
+      "never_means": "a combobox tick (that is `selected`) or a healthy service (that is `healthHealthy`)"
+    },
+    "supplier": {
+      "glyph": "truck",
+      "source": "lucide/truck.svg",
+      "category": "entity",
+      "keywords": [
+        "supplier",
+        "truck"
+      ],
+      "never_means": "an inbound delivery (that is `storeOrder`) or a transfer (that is `transferOrder`)"
+    },
+    "support": {
+      "glyph": "message-circle-question",
+      "source": "lucide/message-circle-question.svg",
+      "category": "platform",
+      "keywords": [
+        "support",
+        "message",
+        "circle",
+        "question"
+      ],
+      "never_means": "an inline comment (that is `comment`) or a bug report (that is `reportIssue`)"
+    },
+    "syncFolder": {
+      "glyph": "folder-sync",
+      "source": "lucide/folder-sync.svg",
+      "category": "entity",
+      "keywords": [
+        "sync",
+        "folder"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskBacklog": {
+      "glyph": "clipboard-list",
+      "source": "lucide/clipboard-list.svg",
+      "category": "entity",
+      "keywords": [
+        "task",
+        "backlog",
+        "clipboard",
+        "list"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskBusiness": {
+      "glyph": "briefcase-business",
+      "source": "lucide/briefcase-business.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "business",
+        "briefcase"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskContact": {
+      "glyph": "contact",
+      "source": "lucide/contact.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "contact"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskEngineering": {
+      "glyph": "code-xml",
+      "source": "lucide/code-xml.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "engineering",
+        "code",
+        "xml"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskInfrastructure": {
+      "glyph": "terminal",
+      "source": "lucide/terminal.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "infrastructure",
+        "terminal"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskIntegration": {
+      "glyph": "cable",
+      "source": "lucide/cable.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "integration",
+        "cable"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskMaintenance": {
+      "glyph": "wrench",
+      "source": "lucide/wrench.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "maintenance",
+        "wrench"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskSupport": {
+      "glyph": "life-buoy",
+      "source": "lucide/life-buoy.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "support",
+        "life",
+        "buoy"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "taskWorkflow": {
+      "glyph": "workflow",
+      "source": "lucide/workflow.svg",
+      "category": "platform",
+      "keywords": [
+        "task",
+        "workflow"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "team": {
+      "glyph": "users",
+      "source": "lucide/users.svg",
+      "category": "entity",
+      "keywords": [
+        "team",
+        "users"
+      ],
+      "never_means": "a single user record (that is `user`)"
+    },
+    "textFormat": {
+      "glyph": "type",
+      "source": "lucide/type.svg",
+      "category": "editor",
+      "keywords": [
+        "text",
+        "format",
+        "type"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "transferOrder": {
+      "glyph": "arrow-left-right",
+      "source": "lucide/arrow-left-right.svg",
+      "category": "entity",
+      "keywords": [
+        "transfer",
+        "order",
+        "arrow",
+        "left",
+        "right"
+      ],
+      "never_means": "a generic two-way swap control"
+    },
+    "trendDown": {
+      "glyph": "trending-down",
+      "source": "lucide/trending-down.svg",
+      "category": "domain",
+      "keywords": [
+        "trend",
+        "down",
+        "trending"
+      ],
+      "never_means": "a discontinued product (that is `discontinued`)"
+    },
+    "trendUp": {
+      "glyph": "trending-up",
+      "source": "lucide/trending-up.svg",
+      "category": "domain",
+      "keywords": [
+        "trend",
+        "up",
+        "trending"
+      ],
+      "never_means": "a forecast uplift adjustment (that is `forecastUplift`)"
+    },
+    "undo": {
+      "glyph": "undo-2",
+      "source": "lucide/undo-2.svg",
+      "category": "action",
+      "keywords": [
+        "undo"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "uploadFile": {
+      "glyph": "file-up",
+      "source": "lucide/file-up.svg",
+      "category": "action",
+      "keywords": [
+        "upload",
+        "file",
+        "up"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "user": {
+      "glyph": "user",
+      "source": "lucide/user.svg",
+      "category": "entity",
+      "keywords": [
+        "user"
+      ],
+      "never_means": "a group of people (that is `team`) or a signed-in profile page (that is `profile`)"
+    },
+    "userApproved": {
+      "glyph": "user-check",
+      "source": "lucide/user-check.svg",
+      "category": "platform",
+      "keywords": [
+        "user",
+        "approved",
+        "check"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "userEdited": {
+      "glyph": "user-pen",
+      "source": "lucide/user-pen.svg",
+      "category": "platform",
+      "keywords": [
+        "user",
+        "edited",
+        "pen"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "userMention": {
+      "glyph": "circle-user-round",
+      "source": "lucide/circle-user-round.svg",
+      "category": "platform",
+      "keywords": [
+        "user",
+        "mention",
+        "circle",
+        "round"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "userRejected": {
+      "glyph": "user-x",
+      "source": "lucide/user-x.svg",
+      "category": "platform",
+      "keywords": [
+        "user",
+        "rejected"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "warehouse": {
+      "glyph": "warehouse",
+      "source": "lucide/warehouse.svg",
+      "category": "entity",
+      "keywords": [
+        "warehouse"
+      ],
+      "never_means": "total inventory (that is `inventory`) or a retail store (that is `storeLocation`)"
+    },
+    "warning": {
+      "glyph": "triangle-alert",
+      "source": "lucide/triangle-alert.svg",
+      "category": "status",
+      "keywords": [
+        "warning",
+        "triangle",
+        "alert"
+      ],
+      "never_means": "severity \"error\" (that is `error`) or a failed operation (that is `failure`)"
+    },
+    "wiki": {
+      "glyph": "book-open-text",
+      "source": "lucide/book-open-text.svg",
+      "category": "entity",
+      "keywords": [
+        "wiki",
+        "book",
+        "open",
+        "text"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "zoomIn": {
+      "glyph": "zoom-in",
+      "source": "lucide/zoom-in.svg",
+      "category": "action",
+      "keywords": [
+        "zoom",
+        "in"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "abcClass": {
+      "glyph": "abc-class",
+      "source": "custom/abc-class.svg",
+      "category": "domain",
+      "keywords": [
+        "abc",
+        "class"
+      ],
+      "never_means": "movement-speed class (that is `fmsClass`) or demand-variability class (that is `xyzClass`)"
+    },
+    "assortment": {
+      "glyph": "assortment",
+      "source": "custom/assortment.svg",
+      "category": "domain",
+      "keywords": [
+        "assortment"
+      ],
+      "never_means": "a product category tree (that is `category`)"
+    },
+    "confirmationOrderLine": {
+      "glyph": "confirmation-order-line",
+      "source": "custom/confirmation-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "confirmation",
+        "order",
+        "line"
+      ],
+      "never_means": "a store-order line (that is `storeOrderLine`) or a PO line (that is `purchaseOrderLine`)"
+    },
+    "demandForecast": {
+      "glyph": "demand-forecast",
+      "source": "custom/demand-forecast.svg",
+      "category": "domain",
+      "keywords": [
+        "demand",
+        "forecast"
+      ],
+      "never_means": "realised sales history (that is `trendUp`/`trendDown`) or a chart widget (that is `forecastChart`)"
+    },
+    "fmsClass": {
+      "glyph": "fms-class",
+      "source": "custom/fms-class.svg",
+      "category": "domain",
+      "keywords": [
+        "fms",
+        "class"
+      ],
+      "never_means": "revenue class (that is `abcClass`) or demand-variability class (that is `xyzClass`)"
+    },
+    "forecastUplift": {
+      "glyph": "forecast-uplift",
+      "source": "custom/forecast-uplift.svg",
+      "category": "domain",
+      "keywords": [
+        "forecast",
+        "uplift"
+      ],
+      "never_means": "an upward sales trend (that is `trendUp`)"
+    },
+    "leadTime": {
+      "glyph": "lead-time",
+      "source": "custom/lead-time.svg",
+      "category": "domain",
+      "keywords": [
+        "lead",
+        "time"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "meio": {
+      "glyph": "meio",
+      "source": "custom/meio.svg",
+      "category": "domain",
+      "keywords": [
+        "meio"
+      ],
+      "never_means": "single-echelon safety stock (that is `safetyStock`)"
+    },
+    "purchaseOrderLine": {
+      "glyph": "purchase-order-line",
+      "source": "custom/purchase-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "purchase",
+        "order",
+        "line"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "reorderPoint": {
+      "glyph": "reorder-point",
+      "source": "custom/reorder-point.svg",
+      "category": "domain",
+      "keywords": [
+        "reorder",
+        "point"
+      ],
+      "never_means": "the buffer quantity itself (that is `safetyStock`)"
+    },
+    "replenishment": {
+      "glyph": "replenishment",
+      "source": "custom/replenishment.svg",
+      "category": "domain",
+      "keywords": [
+        "replenishment"
+      ],
+      "never_means": "a PO recommendation (that is `poRecommendation`)"
+    },
+    "safetyStock": {
+      "glyph": "safety-stock",
+      "source": "custom/safety-stock.svg",
+      "category": "domain",
+      "keywords": [
+        "safety",
+        "stock"
+      ],
+      "never_means": "the reorder trigger level (that is `reorderPoint`) or a coverage horizon (that is `stockCoverage`)"
+    },
+    "salesOrderLine": {
+      "glyph": "sales-order-line",
+      "source": "custom/sales-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "sales",
+        "order",
+        "line"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "stockCoverage": {
+      "glyph": "stock-coverage",
+      "source": "custom/stock-coverage.svg",
+      "category": "domain",
+      "keywords": [
+        "stock",
+        "coverage"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "storeOrderLine": {
+      "glyph": "store-order-line",
+      "source": "custom/store-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "store",
+        "order",
+        "line"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "transferOrderLine": {
+      "glyph": "transfer-order-line",
+      "source": "custom/transfer-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "transfer",
+        "order",
+        "line"
+      ],
+      "never_means": "a store-order line (that is `storeOrderLine`)"
+    },
+    "xyzClass": {
+      "glyph": "xyz-class",
+      "source": "custom/xyz-class.svg",
+      "category": "domain",
+      "keywords": [
+        "xyz",
+        "class"
+      ],
+      "never_means": "revenue class (that is `abcClass`) or movement-speed class (that is `fmsClass`)"
+    }
+  }
+}

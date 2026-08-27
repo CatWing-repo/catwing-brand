@@ -1,0 +1,2 @@
+# PNG rasterisation for the icon set (tools/icons.py). Everything else is stdlib.
+cairosvg>=2.7

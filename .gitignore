@@ -9,3 +9,6 @@ design.html
 resources.html
 tokens.json
 tokens.css
+
+# Generated icon artifacts (rebuilt by tools/icons.py on every build)
+icons/dist/
