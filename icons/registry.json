@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "lucide_version": "0.468.0",
   "roles": {
     "abcClass": {
@@ -655,6 +655,17 @@
       ],
       "never_means": "editing a user record specifically (that is `userEdited`)"
     },
+    "email": {
+      "glyph": "mail",
+      "source": "lucide/mail.svg",
+      "category": "platform",
+      "keywords": [
+        "email",
+        "mail",
+        "interaction"
+      ],
+      "never_means": "sending a drafted message (that is `send`) or an inbox of platform events (that is `eventInbox`)"
+    },
     "error": {
       "glyph": "circle-alert",
       "source": "lucide/circle-alert.svg",
@@ -1077,6 +1088,17 @@
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
+    "meeting": {
+      "glyph": "calendar-check",
+      "source": "lucide/calendar-check.svg",
+      "category": "platform",
+      "keywords": [
+        "meeting",
+        "calendar",
+        "interaction"
+      ],
+      "never_means": "a calendar date field (that is `date`) or a scheduled run (that is `schedule`)"
+    },
     "meio": {
       "glyph": "meio",
       "source": "custom/meio.svg",
@@ -1094,6 +1116,17 @@
         "menu"
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "message": {
+      "glyph": "message-circle",
+      "source": "lucide/message-circle.svg",
+      "category": "platform",
+      "keywords": [
+        "message",
+        "chat",
+        "interaction"
+      ],
+      "never_means": "an inline comment on a record (that is `comment`) or a support request (that is `support`)"
     },
     "minimize": {
       "glyph": "minimize-2",
@@ -1243,6 +1276,17 @@
       ],
       "never_means": "an overdue item (that is `overdue`) or an elapsed duration (that is `duration`)"
     },
+    "phoneCall": {
+      "glyph": "phone",
+      "source": "lucide/phone.svg",
+      "category": "platform",
+      "keywords": [
+        "phone",
+        "call",
+        "interaction"
+      ],
+      "never_means": "a video call (that is `videoCall`) or a support request (that is `support`)"
+    },
     "pipelineRun": {
       "glyph": "zap",
       "source": "lucide/zap.svg",
@@ -1265,6 +1309,17 @@
         "cart"
       ],
       "never_means": "a confirmed purchase order (that is `purchaseOrder`)"
+    },
+    "presentation": {
+      "glyph": "presentation",
+      "source": "lucide/presentation.svg",
+      "category": "platform",
+      "keywords": [
+        "presentation",
+        "demo",
+        "interaction"
+      ],
+      "never_means": "a forecast chart (that is `forecastChart`) or a metrics overview (that is `analytics`)"
     },
     "price": {
       "glyph": "euro",
@@ -2122,6 +2177,17 @@
         "rejected"
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "videoCall": {
+      "glyph": "video",
+      "source": "lucide/video.svg",
+      "category": "platform",
+      "keywords": [
+        "video",
+        "call",
+        "interaction"
+      ],
+      "never_means": "a voice call (that is `phoneCall`) or a screen presentation (that is `presentation`)"
     },
     "warehouse": {
       "glyph": "warehouse",
