@@ -1,7 +1,17 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "lucide_version": "0.468.0",
   "roles": {
+    "abcClass": {
+      "glyph": "abc-class",
+      "source": "custom/abc-class.svg",
+      "category": "domain",
+      "keywords": [
+        "abc",
+        "class"
+      ],
+      "never_means": "movement-speed class (that is `fmsClass`) or demand-variability class (that is `xyzClass`)"
+    },
     "activityTrail": {
       "glyph": "footprints",
       "source": "lucide/footprints.svg",
@@ -110,6 +120,15 @@
         "window"
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "assortment": {
+      "glyph": "assortment",
+      "source": "custom/assortment.svg",
+      "category": "domain",
+      "keywords": [
+        "assortment"
+      ],
+      "never_means": "a product category tree (that is `category`)"
     },
     "attachment": {
       "glyph": "paperclip",
@@ -460,6 +479,17 @@
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
+    "confirmationOrderLine": {
+      "glyph": "confirmation-order-line",
+      "source": "custom/confirmation-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "confirmation",
+        "order",
+        "line"
+      ],
+      "never_means": "a store-order line (that is `storeOrderLine`) or a PO line (that is `purchaseOrderLine`)"
+    },
     "constraints": {
       "glyph": "sliders-horizontal",
       "source": "lucide/sliders-horizontal.svg",
@@ -552,6 +582,16 @@
         "trash"
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "demandForecast": {
+      "glyph": "demand-forecast",
+      "source": "custom/demand-forecast.svg",
+      "category": "domain",
+      "keywords": [
+        "demand",
+        "forecast"
+      ],
+      "never_means": "realised sales history (that is `trendUp`/`trendDown`) or a chart widget (that is `forecastChart`)"
     },
     "discontinued": {
       "glyph": "package-x",
@@ -732,6 +772,16 @@
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
+    "fmsClass": {
+      "glyph": "fms-class",
+      "source": "custom/fms-class.svg",
+      "category": "domain",
+      "keywords": [
+        "fms",
+        "class"
+      ],
+      "never_means": "revenue class (that is `abcClass`) or demand-variability class (that is `xyzClass`)"
+    },
     "folder": {
       "glyph": "folder-closed",
       "source": "lucide/folder-closed.svg",
@@ -762,6 +812,16 @@
         "line"
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "forecastUplift": {
+      "glyph": "forecast-uplift",
+      "source": "custom/forecast-uplift.svg",
+      "category": "domain",
+      "keywords": [
+        "forecast",
+        "uplift"
+      ],
+      "never_means": "an upward sales trend (that is `trendUp`)"
     },
     "forward": {
       "glyph": "arrow-right",
@@ -955,6 +1015,16 @@
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
+    "leadTime": {
+      "glyph": "lead-time",
+      "source": "custom/lead-time.svg",
+      "category": "domain",
+      "keywords": [
+        "lead",
+        "time"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
     "lightTheme": {
       "glyph": "sun",
       "source": "lucide/sun.svg",
@@ -1006,6 +1076,15 @@
         "maximize"
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "meio": {
+      "glyph": "meio",
+      "source": "custom/meio.svg",
+      "category": "domain",
+      "keywords": [
+        "meio"
+      ],
+      "never_means": "single-echelon safety stock (that is `safetyStock`)"
     },
     "menu": {
       "glyph": "menu",
@@ -1230,6 +1309,17 @@
       ],
       "never_means": "a PO recommendation (that is `poRecommendation`)"
     },
+    "purchaseOrderLine": {
+      "glyph": "purchase-order-line",
+      "source": "custom/purchase-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "purchase",
+        "order",
+        "line"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
     "radioEmpty": {
       "glyph": "circle",
       "source": "lucide/circle.svg",
@@ -1336,6 +1426,25 @@
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
+    "reorderPoint": {
+      "glyph": "reorder-point",
+      "source": "custom/reorder-point.svg",
+      "category": "domain",
+      "keywords": [
+        "reorder",
+        "point"
+      ],
+      "never_means": "the buffer quantity itself (that is `safetyStock`)"
+    },
+    "replenishment": {
+      "glyph": "replenishment",
+      "source": "custom/replenishment.svg",
+      "category": "domain",
+      "keywords": [
+        "replenishment"
+      ],
+      "never_means": "a PO recommendation (that is `poRecommendation`)"
+    },
     "reportIssue": {
       "glyph": "message-square-plus",
       "source": "lucide/message-square-plus.svg",
@@ -1350,15 +1459,15 @@
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
     "retry": {
-      "glyph": "rotate-ccw",
-      "source": "lucide/rotate-ccw.svg",
+      "glyph": "rotate-cw",
+      "source": "lucide/rotate-cw.svg",
       "category": "action",
       "keywords": [
         "retry",
         "rotate",
-        "ccw"
+        "cw"
       ],
-      "never_means": "a plain data reload (that is `refresh`) or an undo (that is `undo`)"
+      "never_means": "a plain data reload (that is `refresh`) or reversing a confirmed decision (that is `undo`)"
     },
     "revision": {
       "glyph": "git-branch",
@@ -1400,6 +1509,16 @@
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
+    "safetyStock": {
+      "glyph": "safety-stock",
+      "source": "custom/safety-stock.svg",
+      "category": "domain",
+      "keywords": [
+        "safety",
+        "stock"
+      ],
+      "never_means": "the reorder trigger level (that is `reorderPoint`) or a coverage horizon (that is `stockCoverage`)"
+    },
     "salesOrder": {
       "glyph": "receipt",
       "source": "lucide/receipt.svg",
@@ -1410,6 +1529,17 @@
         "receipt"
       ],
       "never_means": "a purchase order (that is `purchaseOrder`) or a customer order (that is `customerOrder`)"
+    },
+    "salesOrderLine": {
+      "glyph": "sales-order-line",
+      "source": "custom/sales-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "sales",
+        "order",
+        "line"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
     "save": {
       "glyph": "save",
@@ -1598,6 +1728,16 @@
       ],
       "never_means": "an applied ascending sort (that is `sortAscending`)"
     },
+    "stockCoverage": {
+      "glyph": "stock-coverage",
+      "source": "custom/stock-coverage.svg",
+      "category": "domain",
+      "keywords": [
+        "stock",
+        "coverage"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
     "stockLookup": {
       "glyph": "package-search",
       "source": "lucide/package-search.svg",
@@ -1651,6 +1791,17 @@
         "check"
       ],
       "never_means": "a completed delivery check (that is `success`)"
+    },
+    "storeOrderLine": {
+      "glyph": "store-order-line",
+      "source": "custom/store-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "store",
+        "order",
+        "line"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
     "submitMessage": {
       "glyph": "send-horizontal",
@@ -1851,6 +2002,17 @@
       ],
       "never_means": "a generic two-way swap control"
     },
+    "transferOrderLine": {
+      "glyph": "transfer-order-line",
+      "source": "custom/transfer-order-line.svg",
+      "category": "domain",
+      "keywords": [
+        "transfer",
+        "order",
+        "line"
+      ],
+      "never_means": "a store-order line (that is `storeOrderLine`)"
+    },
     "trendDown": {
       "glyph": "trending-down",
       "source": "lucide/trending-down.svg",
@@ -1874,13 +2036,28 @@
       "never_means": "a forecast uplift adjustment (that is `forecastUplift`)"
     },
     "undo": {
-      "glyph": "undo-2",
-      "source": "lucide/undo-2.svg",
+      "glyph": "rotate-ccw",
+      "source": "lucide/rotate-ccw.svg",
       "category": "action",
       "keywords": [
-        "undo"
+        "undo",
+        "revert",
+        "restore",
+        "unconfirm"
       ],
-      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+      "never_means": "retrying a failed operation (that is `retry`) or a data reload (that is `refresh`)"
+    },
+    "unlocked": {
+      "glyph": "lock-open",
+      "source": "lucide/lock-open.svg",
+      "category": "platform",
+      "keywords": [
+        "unlocked",
+        "unlock",
+        "lock",
+        "open"
+      ],
+      "never_means": "a locked object (that is `locked`) or an API credential (that is `apiKey`)"
     },
     "uploadFile": {
       "glyph": "file-up",
@@ -1978,178 +2155,6 @@
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
-    "zoomIn": {
-      "glyph": "zoom-in",
-      "source": "lucide/zoom-in.svg",
-      "category": "action",
-      "keywords": [
-        "zoom",
-        "in"
-      ],
-      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
-    },
-    "abcClass": {
-      "glyph": "abc-class",
-      "source": "custom/abc-class.svg",
-      "category": "domain",
-      "keywords": [
-        "abc",
-        "class"
-      ],
-      "never_means": "movement-speed class (that is `fmsClass`) or demand-variability class (that is `xyzClass`)"
-    },
-    "assortment": {
-      "glyph": "assortment",
-      "source": "custom/assortment.svg",
-      "category": "domain",
-      "keywords": [
-        "assortment"
-      ],
-      "never_means": "a product category tree (that is `category`)"
-    },
-    "confirmationOrderLine": {
-      "glyph": "confirmation-order-line",
-      "source": "custom/confirmation-order-line.svg",
-      "category": "domain",
-      "keywords": [
-        "confirmation",
-        "order",
-        "line"
-      ],
-      "never_means": "a store-order line (that is `storeOrderLine`) or a PO line (that is `purchaseOrderLine`)"
-    },
-    "demandForecast": {
-      "glyph": "demand-forecast",
-      "source": "custom/demand-forecast.svg",
-      "category": "domain",
-      "keywords": [
-        "demand",
-        "forecast"
-      ],
-      "never_means": "realised sales history (that is `trendUp`/`trendDown`) or a chart widget (that is `forecastChart`)"
-    },
-    "fmsClass": {
-      "glyph": "fms-class",
-      "source": "custom/fms-class.svg",
-      "category": "domain",
-      "keywords": [
-        "fms",
-        "class"
-      ],
-      "never_means": "revenue class (that is `abcClass`) or demand-variability class (that is `xyzClass`)"
-    },
-    "forecastUplift": {
-      "glyph": "forecast-uplift",
-      "source": "custom/forecast-uplift.svg",
-      "category": "domain",
-      "keywords": [
-        "forecast",
-        "uplift"
-      ],
-      "never_means": "an upward sales trend (that is `trendUp`)"
-    },
-    "leadTime": {
-      "glyph": "lead-time",
-      "source": "custom/lead-time.svg",
-      "category": "domain",
-      "keywords": [
-        "lead",
-        "time"
-      ],
-      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
-    },
-    "meio": {
-      "glyph": "meio",
-      "source": "custom/meio.svg",
-      "category": "domain",
-      "keywords": [
-        "meio"
-      ],
-      "never_means": "single-echelon safety stock (that is `safetyStock`)"
-    },
-    "purchaseOrderLine": {
-      "glyph": "purchase-order-line",
-      "source": "custom/purchase-order-line.svg",
-      "category": "domain",
-      "keywords": [
-        "purchase",
-        "order",
-        "line"
-      ],
-      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
-    },
-    "reorderPoint": {
-      "glyph": "reorder-point",
-      "source": "custom/reorder-point.svg",
-      "category": "domain",
-      "keywords": [
-        "reorder",
-        "point"
-      ],
-      "never_means": "the buffer quantity itself (that is `safetyStock`)"
-    },
-    "replenishment": {
-      "glyph": "replenishment",
-      "source": "custom/replenishment.svg",
-      "category": "domain",
-      "keywords": [
-        "replenishment"
-      ],
-      "never_means": "a PO recommendation (that is `poRecommendation`)"
-    },
-    "safetyStock": {
-      "glyph": "safety-stock",
-      "source": "custom/safety-stock.svg",
-      "category": "domain",
-      "keywords": [
-        "safety",
-        "stock"
-      ],
-      "never_means": "the reorder trigger level (that is `reorderPoint`) or a coverage horizon (that is `stockCoverage`)"
-    },
-    "salesOrderLine": {
-      "glyph": "sales-order-line",
-      "source": "custom/sales-order-line.svg",
-      "category": "domain",
-      "keywords": [
-        "sales",
-        "order",
-        "line"
-      ],
-      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
-    },
-    "stockCoverage": {
-      "glyph": "stock-coverage",
-      "source": "custom/stock-coverage.svg",
-      "category": "domain",
-      "keywords": [
-        "stock",
-        "coverage"
-      ],
-      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
-    },
-    "storeOrderLine": {
-      "glyph": "store-order-line",
-      "source": "custom/store-order-line.svg",
-      "category": "domain",
-      "keywords": [
-        "store",
-        "order",
-        "line"
-      ],
-      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
-    },
-    "transferOrderLine": {
-      "glyph": "transfer-order-line",
-      "source": "custom/transfer-order-line.svg",
-      "category": "domain",
-      "keywords": [
-        "transfer",
-        "order",
-        "line"
-      ],
-      "never_means": "a store-order line (that is `storeOrderLine`)"
-    },
     "xyzClass": {
       "glyph": "xyz-class",
       "source": "custom/xyz-class.svg",
@@ -2159,6 +2164,16 @@
         "class"
       ],
       "never_means": "revenue class (that is `abcClass`) or movement-speed class (that is `fmsClass`)"
+    },
+    "zoomIn": {
+      "glyph": "zoom-in",
+      "source": "lucide/zoom-in.svg",
+      "category": "action",
+      "keywords": [
+        "zoom",
+        "in"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     }
   }
 }
