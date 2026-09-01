@@ -1,5 +1,5 @@
 {
-  "version": "2.3",
+  "version": "2.4",
   "lucide_version": "0.468.0",
   "roles": {
     "abcClass": {
@@ -865,6 +865,16 @@
         "grid",
         "view",
         "layout"
+      ],
+      "never_means": "any other role in this registry — one glyph carries exactly one meaning"
+    },
+    "heading1": {
+      "glyph": "heading-1",
+      "source": "lucide/heading-1.svg",
+      "category": "editor",
+      "keywords": [
+        "heading1",
+        "heading"
       ],
       "never_means": "any other role in this registry — one glyph carries exactly one meaning"
     },
